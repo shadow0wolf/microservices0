@@ -6,7 +6,9 @@ spring:
     name: eureka-server
   aop:
     auto: false
-
+  cloud:
+    refresh:
+      enabled: false
 eureka:
   client:
     register-with-eureka: false
