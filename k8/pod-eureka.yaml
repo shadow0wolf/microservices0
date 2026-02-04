@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name : eureka
+  namespace : ms-namespace
+  labels :
+    app : ms
+    component : eureka
+spec :
+
+  containers :
+    - name : eureka-container
+      image : docker.io/library/ms-eureka:1.0.0
+      ports :
+        - containerPort: 8761
