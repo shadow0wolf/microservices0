@@ -59,7 +59,7 @@
                 <configuration>
                     <!-- Image name -->
                     <image>
-                        <name>myrepo/order-service:1.0.0</name>
+                        <name>ms-eureka:1.0.0</name>
                         <!-- Builder image (Paketo) -->
                         <builder>paketobuildpacks/builder-jammy-base</builder>
                         <!-- Buildpack environment variables -->
