@@ -9,6 +9,6 @@ metadata :
 spec:
   containers:
     - name : inventory-service-container
-      image : docker.io/library/ms-inventory-service:1.0.0'
+      image : docker.io/library/ms-inventory-service:1.0.0
       ports:
         - containerPort: 7999
